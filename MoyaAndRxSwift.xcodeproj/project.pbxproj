@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0941DE55208EE974002C6B51 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE54208EE974002C6B51 /* AppState.swift */; };
+		0941DE57208EECB4002C6B51 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE56208EECB4002C6B51 /* Injector.swift */; };
+		0941DE5D208EF2B1002C6B51 /* NearbyPlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE5C208EF2B1002C6B51 /* NearbyPlacesService.swift */; };
+		0941DE5F208EF4F0002C6B51 /* ServicesConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE5E208EF4F0002C6B51 /* ServicesConstant.swift */; };
+		0941DE61208EF790002C6B51 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE60208EF790002C6B51 /* AppReducer.swift */; };
+		0941DE68208EFB91002C6B51 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE63208EFB91002C6B51 /* PlacesViewController.swift */; };
+		0941DE69208EFB91002C6B51 /* PlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0941DE64208EFB91002C6B51 /* PlacesViewController.xib */; };
+		0941DE6A208EFB91002C6B51 /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE66208EFB91002C6B51 /* PlaceCollectionViewCell.swift */; };
+		0941DE6B208EFB91002C6B51 /* PlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0941DE67208EFB91002C6B51 /* PlaceCollectionViewCell.xib */; };
+		0941DE6D208EFBA3002C6B51 /* UIView+FoursquareClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941DE6C208EFBA3002C6B51 /* UIView+FoursquareClone.swift */; };
 		0970534B208B49F800882A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970534A208B49F800882A9B /* AppDelegate.swift */; };
 		0970534D208B49F800882A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970534C208B49F800882A9B /* ViewController.swift */; };
 		09705350208B49F800882A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0970534E208B49F800882A9B /* Main.storyboard */; };
@@ -14,6 +24,19 @@
 		09705355208B49F800882A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09705353208B49F800882A9B /* LaunchScreen.storyboard */; };
 		09705360208B49F900882A9B /* MoyaAndRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970535F208B49F900882A9B /* MoyaAndRxSwiftTests.swift */; };
 		0970536B208B49F900882A9B /* MoyaAndRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970536A208B49F900882A9B /* MoyaAndRxSwiftUITests.swift */; };
+		09705379208B4A0800882A9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 09705378208B4A0800882A9B /* Podfile */; };
+		09705385208B4B9A00882A9B /* FetchPlacesAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705384208B4B9A00882A9B /* FetchPlacesAction.swift */; };
+		09705387208B4D4000882A9B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705386208B4D3F00882A9B /* Category.swift */; };
+		09705389208B4DF200882A9B /* PlaceTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705388208B4DF200882A9B /* PlaceTip.swift */; };
+		0970538B208B4F1C00882A9B /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970538A208B4F1C00882A9B /* PhotoItem.swift */; };
+		0970538D208B4FD900882A9B /* PhotoGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970538C208B4FD900882A9B /* PhotoGroup.swift */; };
+		0970538F208B511900882A9B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970538E208B511900882A9B /* Place.swift */; };
+		09705391208B53D500882A9B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705390208B53D500882A9B /* Group.swift */; };
+		09705393208B546D00882A9B /* LocationPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705392208B546D00882A9B /* LocationPlaces.swift */; };
+		09705395208B585400882A9B /* PlacesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705394208B585400882A9B /* PlacesApi.swift */; };
+		09705397208B5F3600882A9B /* PlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705396208B5F3600882A9B /* PlacesService.swift */; };
+		09705399208B67CD00882A9B /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09705398208B67CD00882A9B /* UserLocationService.swift */; };
+		853CD18C3FB3D230441C9506 /* Pods_MoyaAndRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C0E52507D8C276FBCA7E58 /* Pods_MoyaAndRxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0941DE54208EE974002C6B51 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		0941DE56208EECB4002C6B51 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		0941DE5C208EF2B1002C6B51 /* NearbyPlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesService.swift; sourceTree = "<group>"; };
+		0941DE5E208EF4F0002C6B51 /* ServicesConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesConstant.swift; sourceTree = "<group>"; };
+		0941DE60208EF790002C6B51 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		0941DE63208EFB91002C6B51 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		0941DE64208EFB91002C6B51 /* PlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesViewController.xib; sourceTree = "<group>"; };
+		0941DE66208EFB91002C6B51 /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		0941DE67208EFB91002C6B51 /* PlaceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		0941DE6C208EFBA3002C6B51 /* UIView+FoursquareClone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FoursquareClone.swift"; sourceTree = "<group>"; };
 		09705347208B49F800882A9B /* MoyaAndRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaAndRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0970534A208B49F800882A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0970534C208B49F800882A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,21 @@
 		09705366208B49F900882A9B /* MoyaAndRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaAndRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0970536A208B49F900882A9B /* MoyaAndRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAndRxSwiftUITests.swift; sourceTree = "<group>"; };
 		0970536C208B49F900882A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09705378208B4A0800882A9B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		09705384208B4B9A00882A9B /* FetchPlacesAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPlacesAction.swift; sourceTree = "<group>"; };
+		09705386208B4D3F00882A9B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		09705388208B4DF200882A9B /* PlaceTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTip.swift; sourceTree = "<group>"; };
+		0970538A208B4F1C00882A9B /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		0970538C208B4FD900882A9B /* PhotoGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGroup.swift; sourceTree = "<group>"; };
+		0970538E208B511900882A9B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		09705390208B53D500882A9B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		09705392208B546D00882A9B /* LocationPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPlaces.swift; sourceTree = "<group>"; };
+		09705394208B585400882A9B /* PlacesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesApi.swift; sourceTree = "<group>"; };
+		09705396208B5F3600882A9B /* PlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesService.swift; sourceTree = "<group>"; };
+		09705398208B67CD00882A9B /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
+		17C0E52507D8C276FBCA7E58 /* Pods_MoyaAndRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaAndRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3375093406753483E6E1C38C /* Pods-MoyaAndRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaAndRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaAndRxSwift/Pods-MoyaAndRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		D6F9A4B7D47B055B471F2A14 /* Pods-MoyaAndRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaAndRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaAndRxSwift/Pods-MoyaAndRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853CD18C3FB3D230441C9506 /* Pods_MoyaAndRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +123,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0941DE58208EEECC002C6B51 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE65208EFB91002C6B51 /* PlaceCollectionViewCell */,
+				0941DE62208EFB91002C6B51 /* PlacesViewController */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		0941DE62208EFB91002C6B51 /* PlacesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE63208EFB91002C6B51 /* PlacesViewController.swift */,
+				0941DE64208EFB91002C6B51 /* PlacesViewController.xib */,
+			);
+			name = PlacesViewController;
+			path = "../../../../../../Downloads/foursquare-clone-ios-master/Foursquare Clone/View/Places/PlacesViewController";
+			sourceTree = "<group>";
+		};
+		0941DE65208EFB91002C6B51 /* PlaceCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE66208EFB91002C6B51 /* PlaceCollectionViewCell.swift */,
+				0941DE67208EFB91002C6B51 /* PlaceCollectionViewCell.xib */,
+			);
+			path = PlaceCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		0970533E208B49F800882A9B = {
 			isa = PBXGroup;
 			children = (
+				09705378208B4A0800882A9B /* Podfile */,
 				09705349208B49F800882A9B /* MoyaAndRxSwift */,
 				0970535E208B49F900882A9B /* MoyaAndRxSwiftTests */,
 				09705369208B49F900882A9B /* MoyaAndRxSwiftUITests */,
 				09705348208B49F800882A9B /* Products */,
+				71161BBD0FB7E17F03F41962 /* Pods */,
+				CCD6B7A58BF96C1E743BBFD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +177,16 @@
 		09705349208B49F800882A9B /* MoyaAndRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0970537A208B4ACC00882A9B /* Actions */,
+				0970537B208B4AD300882A9B /* Extensions */,
+				0970537C208B4AE500882A9B /* Injector */,
+				0970537D208B4AE900882A9B /* Models */,
+				0970537E208B4B0400882A9B /* Networking */,
+				0970537F208B4B1400882A9B /* Reducers */,
+				09705380208B4B1C00882A9B /* Services */,
+				09705381208B4B3100882A9B /* State */,
+				09705382208B4B3700882A9B /* Stubbed Responses */,
+				09705383208B4B3D00882A9B /* View */,
 				0970534A208B49F800882A9B /* AppDelegate.swift */,
 				0970534C208B49F800882A9B /* ViewController.swift */,
 				0970534E208B49F800882A9B /* Main.storyboard */,
@@ -125,6 +215,111 @@
 			path = MoyaAndRxSwiftUITests;
 			sourceTree = "<group>";
 		};
+		0970537A208B4ACC00882A9B /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				09705384208B4B9A00882A9B /* FetchPlacesAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		0970537B208B4AD300882A9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE6C208EFBA3002C6B51 /* UIView+FoursquareClone.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0970537C208B4AE500882A9B /* Injector */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE56208EECB4002C6B51 /* Injector.swift */,
+			);
+			path = Injector;
+			sourceTree = "<group>";
+		};
+		0970537D208B4AE900882A9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09705386208B4D3F00882A9B /* Category.swift */,
+				09705388208B4DF200882A9B /* PlaceTip.swift */,
+				0970538A208B4F1C00882A9B /* PhotoItem.swift */,
+				0970538C208B4FD900882A9B /* PhotoGroup.swift */,
+				0970538E208B511900882A9B /* Place.swift */,
+				09705390208B53D500882A9B /* Group.swift */,
+				09705392208B546D00882A9B /* LocationPlaces.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0970537E208B4B0400882A9B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				09705394208B585400882A9B /* PlacesApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0970537F208B4B1400882A9B /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE60208EF790002C6B51 /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		09705380208B4B1C00882A9B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				09705396208B5F3600882A9B /* PlacesService.swift */,
+				09705398208B67CD00882A9B /* UserLocationService.swift */,
+				0941DE5C208EF2B1002C6B51 /* NearbyPlacesService.swift */,
+				0941DE5E208EF4F0002C6B51 /* ServicesConstant.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		09705381208B4B3100882A9B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE54208EE974002C6B51 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		09705382208B4B3700882A9B /* Stubbed Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Stubbed Responses";
+			sourceTree = "<group>";
+		};
+		09705383208B4B3D00882A9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0941DE58208EEECC002C6B51 /* Places */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71161BBD0FB7E17F03F41962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F9A4B7D47B055B471F2A14 /* Pods-MoyaAndRxSwift.debug.xcconfig */,
+				3375093406753483E6E1C38C /* Pods-MoyaAndRxSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCD6B7A58BF96C1E743BBFD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C0E52507D8C276FBCA7E58 /* Pods_MoyaAndRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0970536F208B49F900882A9B /* Build configuration list for PBXNativeTarget "MoyaAndRxSwift" */;
 			buildPhases = (
+				3C9DB42388A4439AFFA894D9 /* [CP] Check Pods Manifest.lock */,
 				09705343208B49F800882A9B /* Sources */,
 				09705344208B49F800882A9B /* Frameworks */,
 				09705345208B49F800882A9B /* Resources */,
+				FB8989470152E86B51A08482 /* [CP] Embed Pods Frameworks */,
+				3CC85FF486BD1E9B6BC7B412 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +432,9 @@
 			files = (
 				09705355208B49F800882A9B /* LaunchScreen.storyboard in Resources */,
 				09705352208B49F800882A9B /* Assets.xcassets in Resources */,
+				0941DE6B208EFB91002C6B51 /* PlaceCollectionViewCell.xib in Resources */,
+				0941DE69208EFB91002C6B51 /* PlacesViewController.xib in Resources */,
+				09705379208B4A0800882A9B /* Podfile in Resources */,
 				09705350208B49F800882A9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +455,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C9DB42388A4439AFFA894D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaAndRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC85FF486BD1E9B6BC7B412 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaAndRxSwift/Pods-MoyaAndRxSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8989470152E86B51A08482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaAndRxSwift/Pods-MoyaAndRxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaAndRxSwift/Pods-MoyaAndRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09705343208B49F800882A9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09705393208B546D00882A9B /* LocationPlaces.swift in Sources */,
+				0970538D208B4FD900882A9B /* PhotoGroup.swift in Sources */,
 				0970534D208B49F800882A9B /* ViewController.swift in Sources */,
+				0941DE5F208EF4F0002C6B51 /* ServicesConstant.swift in Sources */,
+				09705399208B67CD00882A9B /* UserLocationService.swift in Sources */,
+				0941DE5D208EF2B1002C6B51 /* NearbyPlacesService.swift in Sources */,
+				09705397208B5F3600882A9B /* PlacesService.swift in Sources */,
+				09705385208B4B9A00882A9B /* FetchPlacesAction.swift in Sources */,
+				0970538F208B511900882A9B /* Place.swift in Sources */,
 				0970534B208B49F800882A9B /* AppDelegate.swift in Sources */,
+				09705389208B4DF200882A9B /* PlaceTip.swift in Sources */,
+				0941DE55208EE974002C6B51 /* AppState.swift in Sources */,
+				0941DE57208EECB4002C6B51 /* Injector.swift in Sources */,
+				09705387208B4D4000882A9B /* Category.swift in Sources */,
+				0941DE68208EFB91002C6B51 /* PlacesViewController.swift in Sources */,
+				0970538B208B4F1C00882A9B /* PhotoItem.swift in Sources */,
+				0941DE6A208EFB91002C6B51 /* PlaceCollectionViewCell.swift in Sources */,
+				09705391208B53D500882A9B /* Group.swift in Sources */,
+				0941DE61208EF790002C6B51 /* AppReducer.swift in Sources */,
+				09705395208B585400882A9B /* PlacesApi.swift in Sources */,
+				0941DE6D208EFBA3002C6B51 /* UIView+FoursquareClone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +718,12 @@
 		};
 		09705370208B49F900882A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F9A4B7D47B055B471F2A14 /* Pods-MoyaAndRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaAndRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoEngg.MoyaAndRxSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +734,12 @@
 		};
 		09705371208B49F900882A9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3375093406753483E6E1C38C /* Pods-MoyaAndRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaAndRxSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoEngg.MoyaAndRxSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";

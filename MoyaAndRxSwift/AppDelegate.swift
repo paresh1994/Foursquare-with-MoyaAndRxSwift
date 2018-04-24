@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import ReSwift
+
+let injector: Injector = Injector()
+let store = Store<FetchedPlacesState>(reducer: (injector.resolve(AppReducer.self)!).reduce, state: nil)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        let rootViewController = injector.resolve(PlacesViewController.self)
+        self.window?.rootViewController = rootViewController
+        self.window?.makeKeyAndVisible()
         return true
     }
 
